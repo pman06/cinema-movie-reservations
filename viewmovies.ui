@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewMovies</class>
+ <widget class="QMainWindow" name="ViewMovies">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*
+{		
+	color: rgb(255, 255, 255);
+	background-color: rgb(170, 170, 255);	
+}
+QComboBox
+{
+	color: black;
+}
+QTextEdit
+{
+	background-color: white;
+	color: black;
+}
+
+QLineEdit
+{
+	background-color: white;
+	color: black;
+}
+
+QPushButton
+{
+	
+	color: rgb(78, 66, 255);
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover
+{
+	color:white;
+	background-color: rgb(96, 130, 255);
+}
+
+/*QTableView
+{
+	background-color: blue;
+	color: white;
+	backgroud-position:center top;
+}*/
+
+QHeaderView
+{
+	color: black;
+	padding: 2px;
+	
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>-10</y>
+      <width>421</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;h1&gt;View Added Movies &lt;/h1&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTableView" name="moviesTableView">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>111</y>
+      <width>621</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadMoviesButton">
+    <property name="geometry">
+     <rect>
+      <x>264</x>
+      <y>480</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>View Movies</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelLoadButton">
+    <property name="geometry">
+     <rect>
+      <x>404</x>
+      <y>480</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

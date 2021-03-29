@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>moviehome.jpg</file>
+        <file>images (2).jpeg</file>
+        <file>images.jpeg</file>
+        <file>bloody-mary-covers.jpg</file>
+    </qresource>
+</RCC>
